@@ -1,0 +1,48 @@
+{
+  "profile": "PLC-CODEBOOK-2",
+  "dimensions": [
+    {
+      "index": 0,
+      "name": "place",
+      "meaning": "Broad place-of-articulation category",
+      "type": "categorical integer"
+    },
+    {
+      "index": 1,
+      "name": "manner",
+      "meaning": "Broad manner-of-articulation category",
+      "type": "categorical integer"
+    },
+    {
+      "index": 2,
+      "name": "voicing",
+      "meaning": "Starter binary voicing feature",
+      "type": "0/1"
+    },
+    {
+      "index": 3,
+      "name": "phoneme_class",
+      "meaning": "Starter vowel/consonant/other class",
+      "type": "categorical integer"
+    },
+    {
+      "index": 4,
+      "name": "bhava_slot",
+      "meaning": "Reserved user-defined Bhāva slot; currently zero",
+      "type": "integer"
+    },
+    {
+      "index": 5,
+      "name": "token_id",
+      "meaning": "Stable reversible codebook index",
+      "type": "integer"
+    }
+  ],
+  "separate_conceptual_axes": {
+    "X": "Bhūta",
+    "Y": "Rasa",
+    "Z": "Kāla",
+    "W": "Varṇa cluster"
+  },
+  "warning": "These are explicit software conventions, not a recovered traditional coordinate system or a cryptographic primitive."
+}
